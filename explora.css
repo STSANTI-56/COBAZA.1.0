@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+header {
+    background-color: #F9A824;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    font-weight: bold;
+    transition: color 0.3s, border-bottom 0.3s;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #072146;
+}
+
+nav ul li.selected a {
+    color: #F2F2F2; /* Cambia el color de la letra al ser seleccionado */
+}
+
+nav ul li.selected {
+    border-bottom: 2px solid #F2F2F2; /* Subrayado al ser seleccionado */
+}
+
+nav ul li:hover {
+    border-bottom: 2px solid #ddd; /* Subrayado al hacer hover */
+}
+
+.content {
+    display: flex;
+    padding: 20px;
+}
+
+.sidebar {
+    width: 40%;
+    background-color: #072146;
+    padding: 20px;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar li {
+    background-color: #F9A824;
+    color: #072146;
+    margin-bottom: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.sidebar li.active {
+    background-color: #ffffff;
+    color: #072146;
+}
+
+.profile-icon {
+    width: 80px;
+    height: 80px;
+    background-color: #817e7c;
+    background-size: cover;
+    background-position: center;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.details {
+    width: 70%;
+    padding: 20px;
+    background-color: #072146;
+    color: #ffffff;
+    margin-left: 10px;
+}
+
+.details h2 {
+    color: #ffffff;
+}
+
+.details p {
+    margin: 10px 0;
+}
+
+.like-section, .dislike-section {
+    margin: 10px 0;
+}
+
+button {
+    background-color: white;
+    border: 1px solid #072146;
+    color: #072146;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #072146;
+    color: white;
+}
+
+.like-section button, .dislike-section button {
+    display: inline-flex;
+    align-items: center;
+}
+

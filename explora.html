@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>explora</title>
+    <link rel="stylesheet" href="explora.css">
+    <!-- Añadir Font Awesome para los iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#" id="artisticNav">ARTÍSTICA</a></li>
+                <li><a href="#" id="sportsNav">DEPORTE</a></li>
+                <li><a href="#" id="projectsNav">PROYECTOS</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="content">
+            <!-- Sección Artística -->
+            <div class="sidebar" id="artisticSection">
+                <ul id="profileListArtistic">
+                    <!-- Perfiles artísticos se agregarán dinámicamente aquí -->
+                </ul>
+            </div>
+            <div class="details" id="artistDetailsArtistic">
+                <!-- Detalles del artista se mostrarán aquí -->
+            </div>
+
+            <!-- Sección Deportes -->
+            <div class="sidebar" id="sportsSection" style="display: none;">
+                <ul id="profileListSports">
+                    <!-- Perfiles deportivos se agregarán dinámicamente aquí -->
+                </ul>
+            </div>
+            <div class="details" id="artistDetailsSports" style="display: none;">
+                <!-- Detalles del deportista se mostrarán aquí -->
+            </div>
+
+            <!-- Sección Proyectos -->
+            <div class="sidebar" id="projectsSection" style="display: none;">
+                <ul id="profileListProjects">
+                    <!-- Perfiles de proyectos se agregarán dinámicamente aquí -->
+                </ul>
+            </div>
+            <div class="details" id="artistDetailsProjects" style="display: none;">
+                <!-- Detalles del proyecto se mostrarán aquí -->
+            </div>
+        </div>
+    </main>
+
+    <script src="explora.js"></script>
+</body>
+</html>
+

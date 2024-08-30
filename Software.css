@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #052e58;
+}
+
+.contenedor-sofware {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1000px;
+}
+
+.sofware {
+    background-color: #eca012;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #1e6e06;
+    border-radius: 10px;
+}
+
+.sofware img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.sofware h2 {
+    font-size: 1.5em;
+    margin: 15px 0;
+    color: #1e6e06;
+}
+
+.sofware p {
+    font-size: 1em;
+    color: #1e6e06;
+}
+
+.sofware a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #052e58;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.sofware a:hover {
+    background-color: #1e6e06;
+}
+
